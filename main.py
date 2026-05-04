@@ -294,8 +294,8 @@ class AwmcMaimaiStatusPlugin(Star):
         '''查询舞萌DX服务器状态
 用法:
   /mais        - 文本模式查询状态
-  /mais forward - 合并转发模式（仅QQ支持）
-  /mais image  - 截图模式
+  /maisforward - 合并转发模式（仅QQ支持）
+  /maisimage  - 截图模式
 '''
         # 处理模式参数
         use_forward = (mode == "forward") or (self.output_mode == "forward" and mode != "text" and mode != "image")
